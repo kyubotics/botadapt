@@ -1,0 +1,20 @@
+{
+    "host": "127.0.0.1",
+    "port": 5800,
+    "post_url": "http://127.0.0.1:8080/",
+    "message_sources": [
+        {
+            "id": "coolq-1",
+            "via": "coolq-http-api",
+            "self_id": "12345678",
+            "api_url": "http://127.0.0.1:5700",
+            "token": "my-token"
+        },
+        {
+            "id": "mojo-wx-1",
+            "via": "mojo-weixin-openwx",
+            "self_id": "my-bot-id",
+            "api_url": "http://127.0.0.1:5001/openwx"
+        }
+    ]
+}
